@@ -29,7 +29,7 @@ public class Ex01Multiplos3e5 {
 				}
 				
 			}
-		} leia.close();
+		} leia.close(); 
 
 	} 
 
