@@ -23,7 +23,7 @@ public class Ex06Mult3 {
 		} while (num != 0);
 		
 		media = (float)tot / contador;
-		System.out.println("A média de todos os números múltiplos de 3 é: "+media);
+		System.out.printf("A média de todos os números múltiplos de 3 é: %.2f",media);
 		leia.close();
 		
 	}
