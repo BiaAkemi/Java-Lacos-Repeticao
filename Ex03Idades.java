@@ -9,20 +9,22 @@ public class Ex03Idades {
 		int idade=0, menor=0, maior=0;
 		Scanner leia = new Scanner (System.in);
 		
-		while (idade>=0) {
+		System.out.println("\n Digite uma idade:");
+		idade = leia.nextInt();
+		
+		while (idade>=0) {	
+			if (idade < 21){ 
+				
+				menor ++;	
+			} 
+			
+			if (idade > 50) {
+				
+				maior ++;	
+			}
 			
 			System.out.println("\n Digite uma idade:");
 			idade = leia.nextInt();
-			
-			if (idade < 21 && idade >= 0){ 
-				
-				menor ++;
-				
-			} else if (idade > 50) {
-				
-				maior ++;
-				
-			}
 					
 		} 
 		
